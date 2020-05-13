@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">newApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="sensor_type">Sensor Type</string>
+    <string name="logo">Logo</string>
+    <string name="addButton">Add New Sensor</string>
+    <string name="newSensor">Add Sensor</string>
+    <string name="cancel">Cancel</string>
+    <string name="sensorType">Sensor Type</string>
+    <string name="sensorName">Sensor Name</string>
+    <string name="description">IoTS or Internet of Things Simple is a clean, robust solution for IoT data endpoints.</string>
+
+</resources>
