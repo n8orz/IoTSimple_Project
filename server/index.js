@@ -2,7 +2,7 @@
 var admin = require('firebase-admin');
 admin.initializeApp({
   credential: admin.credential.applicationDefault(),
-  databaseURL: 'https://bowlpal-e9a98.firebaseio.com'
+  databaseURL: '<your-db>'
 });
 //initialize express
 const express = require('express')
