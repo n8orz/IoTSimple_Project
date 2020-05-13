@@ -11,14 +11,14 @@ DHTesp dht;
 int dhtPin = 4;
  
 //wireless credentials
-const char *ssid = "Asberry School of Music";
-const char *password = "P1an4w4eva!";
+const char *ssid = "<your wifi>";
+const char *password = "<your wifi>";
  
 //Web/Server address to read/write from 
-const char *host = "192.168.1.10";   //server address
+const char *host = "<your server>";   //server address
 
 //set user email for firebase
-const String email = "vjTzImx8IYQ2eWGjiguILa1oMZZ2";
+const String email = "<uid>";
 
 //name sensor
 const String sensorName = "water";
@@ -74,7 +74,7 @@ void loop() {
   //GET Data
   //sends an http request to the server
   getData = "?status=" + ADCData + "&station=" + station ;  //Note "?" added at front
-  Link = "http://192.168.1.9:3000/users/" + email + "/sensor/" +  sensorName + "/data/37/" + getData;
+  Link = "http://<your server>:3000/users/" + email + "/sensor/" +  sensorName + "/data/37/" + getData;
   
   http.begin(Link);     //Specify request destination
   
